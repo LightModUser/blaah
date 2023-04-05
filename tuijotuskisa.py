@@ -203,7 +203,6 @@ while sankari.rohkeus > 0:
 
     # Tulostetaan vastaan tulevan peikon tiedot.
     PeikonLuokka = random.choice((Peikko, Vuorenpeikko, Luolapeikko))
-    print(PeikonLuokka)
     peikko = PeikonLuokka()
     peikon_tiedot = peikko.nimi + " [" + str(peikko.rohkeus) + "]"
     print(f"Vastaan tulee hurja {peikon_tiedot}!")
